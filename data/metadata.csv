@@ -52,7 +52,7 @@ Nifty Metal,indian_equities.csv,Equity,Indian Sector Index,India,INR,Index point
 Nifty Energy,indian_equities.csv,Equity,Indian Sector Index,India,INR,Index points,price,False,domestic,
 Nifty Infrastructure,indian_equities.csv,Equity,Indian Sector Index,India,INR,Index points,price,False,domestic,
 Nifty PSU Bank,indian_equities.csv,Equity,Indian Sector Index,India,INR,Index points,price,False,domestic,
-India VIX,volatility_macro.csv,Volatility,Volatility Index,India,INR,Volatility points (annualised %),index,False,domestic,Do not compute returns — use level and level changes
+India VIX,volatility_macro.csv,Volatility,Volatility Index,India,INR,Volatility points (annualised %),price,False,domestic,Do not compute returns — use level and level changes
 Gold,commodities.csv,Commodity,Precious Metal,Global,USD,USD per troy ounce,price,True,international,"COMEX front-month futures. Investable via Indian Gold ETFs, SGBs."
 Silver,commodities.csv,Commodity,Precious Metal,Global,USD,USD per troy ounce,price,True,international,COMEX front-month futures. Investable via Indian Silver ETFs.
 MCX Gold INR (Synthetic),commodities.csv,Commodity,Precious Metal,India,INR,INR per 10 grams,price,False,domestic,Synthetic: Gold(USD) x USD/INR x (10/31.1035). Correlation with actual MCX > 99%
@@ -130,9 +130,9 @@ Balanced Advantage Category,indian_mf.csv,Mutual Fund,Hybrid MF,India,INR,Indexe
 Corporate Bond Category,indian_mf.csv,Mutual Fund,Debt MF,India,INR,Indexed NAV (base=100),price,False,domestic,ETF proxy — CPSEETF.NS
 Liquid Category,indian_mf.csv,Mutual Fund,Debt MF,India,INR,Indexed NAV (base=100),price,False,domestic,ETF proxy — LIQUIDBEES.NS
 US Equity FOF Category,indian_mf.csv,Mutual Fund,International MF,India,INR,Indexed NAV (base=100),price,False,domestic,ETF proxy — MON100.NS (Motilal Nasdaq 100 ETF)
-VIX US Equity Volatility,volatility_macro.csv,Volatility,Equity Volatility,US,USD,Volatility points (annualised %),index,False,benchmark,Do not compute returns — use level and level changes
-OVX Oil Volatility,volatility_macro.csv,Volatility,Commodity Volatility,Global,USD,Volatility points (annualised %),index,False,benchmark,Do not compute returns — use level and level changes
-GVZ Gold Volatility,volatility_macro.csv,Volatility,Commodity Volatility,Global,USD,Volatility points (annualised %),index,False,benchmark,Do not compute returns — use level and level changes
+VIX US Equity Volatility,volatility_macro.csv,Volatility,Equity Volatility,US,USD,Volatility points (annualised %),price,False,benchmark,Do not compute returns — use level and level changes
+OVX Oil Volatility,volatility_macro.csv,Volatility,Commodity Volatility,Global,USD,Volatility points (annualised %),price,False,benchmark,Do not compute returns — use level and level changes
+GVZ Gold Volatility,volatility_macro.csv,Volatility,Commodity Volatility,Global,USD,Volatility points (annualised %),price,False,benchmark,Do not compute returns — use level and level changes
 Semiconductor ETF,volatility_macro.csv,Equity,Thematic ETF,US,USD,USD per share,price,True,international_etf,SOXX — iShares Semiconductor ETF
 Clean Energy ETF,volatility_macro.csv,Equity,Thematic ETF,Global,USD,USD per share,price,True,international_etf,ICLN — iShares Global Clean Energy ETF
 Global Real Estate ETF,volatility_macro.csv,Equity,Real Assets,Global,USD,USD per share,price,True,international_etf,REET — iShares Global REIT ETF
@@ -142,7 +142,7 @@ Asia Pacific ETF,volatility_macro.csv,Equity,Regional ETF,Asia,USD,USD per share
 Frontier Markets ETF,volatility_macro.csv,Equity,Regional ETF,EM,USD,USD per share,price,True,international_etf,FM — iShares MSCI Frontier and Select EM ETF
 EM Local Currency Bond ETF,volatility_macro.csv,Fixed Income,Bond ETF,EM,USD,USD per share,price,True,international_etf,EMLC — VanEck EM Local Currency Bond ETF
 Baltic Dry Index ETF,volatility_macro.csv,Macro,Trade Indicator,Global,USD,USD per share,price,False,benchmark,BDRY — Breakwave Dry Bulk Shipping ETF. Proxy for global trade volumes
-US GDP Growth Rate,volatility_macro.csv,Macro,Growth,US,USD,% QoQ annualised (quarterly),rate,False,benchmark,Quarterly. Use for regime classification
+US GDP Growth Rate,volatility_macro.csv,Macro,Growth,US,USD,% QoQ annualised (quarterly),price,False,benchmark,Quarterly. Use for regime classification
 US Industrial Production,volatility_macro.csv,Macro,Growth,US,USD,Index level (monthly),index,False,benchmark,Compute YoY % change
 US Retail Sales,volatility_macro.csv,Macro,Consumption,US,USD,USD millions (monthly),index,False,benchmark,Compute YoY % change
 US Housing Starts,volatility_macro.csv,Macro,Housing,US,USD,Thousands of units (monthly),index,False,benchmark,Compute YoY % change
@@ -152,7 +152,7 @@ US Bank Credit,volatility_macro.csv,Macro,Liquidity,US,USD,USD millions (weekly)
 US Natural Gas Price,volatility_macro.csv,Macro,Energy Price,US,USD,USD per MMBtu (monthly),price,False,benchmark,Monthly Henry Hub price from FRED
 India CPI Inflation,volatility_macro.csv,Macro,Inflation,India,INR,Index level (monthly),index,False,domestic,Compute YoY % change for inflation rate
 India Industrial Production,volatility_macro.csv,Macro,Growth,India,INR,Index level (monthly),index,False,domestic,IIP — compute YoY % change
-India GDP Growth,volatility_macro.csv,Macro,Growth,India,INR,% QoQ (quarterly),rate,False,domestic,Quarterly. Use for regime classification
+India GDP Growth,volatility_macro.csv,Macro,Growth,India,INR,% QoQ (quarterly),price,False,domestic,Quarterly. Use for regime classification
 MCX Silver INR (Synthetic),commodities.csv,Commodity,Precious Metal,India,INR,INR per kg,price,False,domestic,Synthetic: Silver (USD) x USD/INR. Approximates MCX Silver price experience for Indian investors.
 MCX Crude Oil INR (Synthetic),commodities.csv,Commodity,Energy,India,INR,INR per barrel,price,False,domestic,Synthetic: Crude Oil WTI (USD) x USD/INR. Approximates MCX Crude Oil price for Indian investors.
 MCX Natural Gas INR (Synthetic),commodities.csv,Commodity,Energy,India,INR,INR per MMBtu,price,False,domestic,Synthetic: Natural Gas (USD) x USD/INR. Approximates MCX Natural Gas price for Indian investors.
