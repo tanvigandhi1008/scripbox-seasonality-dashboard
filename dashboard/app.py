@@ -1,12 +1,11 @@
-
 import streamlit as st
-import sys
-sys.path.append("/content/drive/MyDrive/seasonality_dashboard/dashboard")
 from utils.data_loader import inject_css, render_sidebar, THEME, load_metadata
+import json
+from pathlib import Path
 
 st.set_page_config(
     page_title="Scripbox Global Seasonality Dashboard",
-    page_icon="📅",
+    page_icon="\U0001f4c5",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -14,7 +13,6 @@ st.set_page_config(
 inject_css()
 render_sidebar()
 
-# Load actual series count from metadata so this number is always correct
 try:
     meta         = load_metadata()
     series_count = len(meta)
@@ -22,6 +20,18 @@ try:
 except Exception:
     series_count = 160
     years_note   = "25 years of data"
+
+# Read last updated timestamp from refresh log if available
+last_updated = "Updated daily"
+try:
+    from utils.data_loader import PROCESSED
+    log_path = Path(PROCESSED) / "refresh_log.json"
+    if log_path.exists():
+        with open(log_path) as f:
+            log = json.load(f)
+        last_updated = log.get("last_updated_ist", last_updated)
+except Exception:
+    pass
 
 st.markdown('''
 <div style="text-align:center; padding: 4rem 2rem 2rem 2rem;">
@@ -72,5 +82,5 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown(f"""
 <div style="text-align:center;font-size:0.8rem;color:{THEME['text_muted']};
 padding:2rem 0 1rem 0;">
-Data refreshed daily · Sources: Yahoo Finance, FRED, AMFI India
+{last_updated} · Sources: Yahoo Finance, FRED, AMFI India
 </div>""", unsafe_allow_html=True)
