@@ -75,8 +75,20 @@ html, body, [class*="css"] {{
 }}
 .main .block-container {{
     background: {THEME["bg"]};
-    padding: 0.5rem 2.5rem 2rem 2.5rem;
+    padding: 0rem 2.5rem 2rem 2.5rem;
     max-width: 1400px;
+}}
+[data-testid="stAppViewBlockContainer"] {{
+    padding-top: 0rem !important;
+}}
+[data-testid="stMainBlockContainer"] {{
+    padding-top: 0rem !important;
+}}
+header[data-testid="stHeader"] {{
+    display: none !important;
+}}
+#root > div:first-child {{
+    padding-top: 0rem !important;
 }}
 section[data-testid="stSidebar"] {{
     background: {THEME["surface"]} !important;
