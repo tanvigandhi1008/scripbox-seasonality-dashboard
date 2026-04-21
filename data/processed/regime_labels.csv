@@ -1,0 +1,317 @@
+,rate_regime,rupee_regime,equity_regime,risk_regime
+2000-01-31,,,,Neutral
+2000-02-29,Rising,,,Neutral
+2000-03-31,Rising,,,Neutral
+2000-04-30,Rising,,,Risk-Off
+2000-05-31,Rising,,,Neutral
+2000-06-30,Rising,,,Neutral
+2000-07-31,Rising,,,Neutral
+2000-08-31,Falling,,,Neutral
+2000-09-30,Rising,,,Neutral
+2000-10-31,Falling,,,Neutral
+2000-11-30,Neutral,,,Risk-Off
+2000-12-31,Falling,,,Risk-Off
+2001-01-31,Falling,,,Neutral
+2001-02-28,Falling,,,Risk-Off
+2001-03-31,Falling,,,Risk-Off
+2001-04-30,Falling,,,Risk-Off
+2001-05-31,Falling,,,Neutral
+2001-06-30,Falling,,,Neutral
+2001-07-31,Falling,,,Neutral
+2001-08-31,Falling,,,Neutral
+2001-09-30,Falling,,,Risk-Off
+2001-10-31,Falling,,,Risk-Off
+2001-11-30,Falling,,,Neutral
+2001-12-31,Falling,,,Neutral
+2002-01-31,Falling,,,Neutral
+2002-02-28,Rising,,,Neutral
+2002-03-31,Falling,,,Neutral
+2002-04-30,Rising,,,Neutral
+2002-05-31,Neutral,,,Neutral
+2002-06-30,Neutral,,,Risk-Off
+2002-07-31,Falling,,,Risk-Off
+2002-08-31,Rising,,,Risk-Off
+2002-09-30,Rising,,,Risk-Off
+2002-10-31,Neutral,,,Risk-Off
+2002-11-30,Falling,,,Risk-Off
+2002-12-31,Falling,,,Risk-Off
+2003-01-31,Neutral,,,Risk-Off
+2003-02-28,Rising,,,Risk-Off
+2003-03-31,Falling,,,Risk-Off
+2003-04-30,Rising,,,Neutral
+2003-05-31,Neutral,,,Neutral
+2003-06-30,Falling,,,Neutral
+2003-07-31,Falling,,,Neutral
+2003-08-31,Rising,,,Neutral
+2003-09-30,Falling,,,Neutral
+2003-10-31,Neutral,,,Neutral
+2003-11-30,Falling,,,Neutral
+2003-12-31,Falling,,,Neutral
+2004-01-31,Rising,Strong Rupee,,Neutral
+2004-02-29,Rising,Stable Rupee,,Risk-On
+2004-03-31,Falling,Strong Rupee,,Neutral
+2004-04-30,Neutral,Weak Rupee,,Neutral
+2004-05-31,Neutral,Weak Rupee,,Neutral
+2004-06-30,Rising,Weak Rupee,,Risk-On
+2004-07-31,Rising,Weak Rupee,,Neutral
+2004-08-31,Rising,Stable Rupee,,Neutral
+2004-09-30,Rising,Strong Rupee,,Risk-On
+2004-10-31,Rising,Strong Rupee,,Neutral
+2004-11-30,Rising,Strong Rupee,,Risk-On
+2004-12-31,Rising,Strong Rupee,,Risk-On
+2005-01-31,Rising,Weak Rupee,,Risk-On
+2005-02-28,Rising,Stable Rupee,,Risk-On
+2005-03-31,Rising,Stable Rupee,,Risk-On
+2005-04-30,Rising,Strong Rupee,,Neutral
+2005-05-31,Rising,Weak Rupee,,Risk-On
+2005-06-30,Rising,Stable Rupee,,Risk-On
+2005-07-31,Rising,Stable Rupee,,Risk-On
+2005-08-31,Rising,Weak Rupee,,Risk-On
+2005-09-30,Rising,Stable Rupee,,Risk-On
+2005-10-31,Rising,Weak Rupee,,Neutral
+2005-11-30,Rising,Weak Rupee,,Risk-On
+2005-12-31,Rising,Strong Rupee,,Risk-On
+2006-01-31,Rising,Strong Rupee,,Risk-On
+2006-02-28,Rising,Weak Rupee,,Risk-On
+2006-03-31,Rising,Weak Rupee,,Risk-On
+2006-04-30,Rising,Weak Rupee,,Risk-On
+2006-05-31,Rising,Weak Rupee,,Neutral
+2006-06-30,Rising,Strong Rupee,,Risk-On
+2006-07-31,Rising,Weak Rupee,,Risk-On
+2006-08-31,Rising,Stable Rupee,,Risk-On
+2006-09-30,Neutral,Strong Rupee,,Risk-On
+2006-10-31,Neutral,Strong Rupee,,Risk-On
+2006-11-30,Neutral,Strong Rupee,,Risk-On
+2006-12-31,Falling,Strong Rupee,,Risk-On
+2007-01-31,Rising,Stable Rupee,,Risk-On
+2007-02-28,Rising,Stable Rupee,,Neutral
+2007-03-31,Neutral,Strong Rupee,,Risk-On
+2007-04-30,Falling,Strong Rupee,,Risk-On
+2007-05-31,Neutral,Strong Rupee,,Risk-On
+2007-06-30,Neutral,Stable Rupee,,Neutral
+2007-07-31,Rising,Stable Rupee,,Neutral
+2007-08-31,Falling,Stable Rupee,,Neutral
+2007-09-30,Falling,Strong Rupee,,Neutral
+2007-10-31,Falling,Strong Rupee,Unknown,Neutral
+2007-11-30,Falling,Weak Rupee,Unknown,Neutral
+2007-12-31,Falling,Strong Rupee,Bull,Neutral
+2008-01-31,Falling,Stable Rupee,Bear,Risk-Off
+2008-02-29,Falling,Weak Rupee,Bear,Risk-Off
+2008-03-31,Falling,Stable Rupee,Bear,Risk-Off
+2008-04-30,Falling,Weak Rupee,Neutral,Neutral
+2008-05-31,Falling,Weak Rupee,Bear,Neutral
+2008-06-30,Rising,Weak Rupee,Bear,Neutral
+2008-07-31,Rising,Strong Rupee,Bear,Neutral
+2008-08-31,Falling,Weak Rupee,Bear,Neutral
+2008-09-30,Falling,Weak Rupee,Neutral,Risk-Off
+2008-10-31,Falling,Weak Rupee,Bear,Risk-Off
+2008-11-30,Falling,Weak Rupee,Bear,Risk-Off
+2008-12-31,Falling,Strong Rupee,Bear,Risk-Off
+2009-01-31,Falling,Weak Rupee,Neutral,Risk-Off
+2009-02-28,Rising,Weak Rupee,Neutral,Risk-Off
+2009-03-31,Falling,Stable Rupee,Neutral,Risk-Off
+2009-04-30,Falling,Strong Rupee,Bull,Risk-Off
+2009-05-31,Rising,Strong Rupee,Bull,Risk-Off
+2009-06-30,Rising,Weak Rupee,Bull,Risk-Off
+2009-07-31,Falling,Stable Rupee,Bull,Risk-Off
+2009-08-31,Neutral,Weak Rupee,Neutral,Risk-Off
+2009-09-30,Falling,Strong Rupee,Bull,Risk-Off
+2009-10-31,Falling,Strong Rupee,Neutral,Risk-Off
+2009-11-30,Neutral,Strong Rupee,Bull,Neutral
+2009-12-31,Neutral,Stable Rupee,Neutral,Neutral
+2010-01-31,Falling,Strong Rupee,Neutral,Neutral
+2010-02-28,Rising,Stable Rupee,Neutral,Neutral
+2010-03-31,Rising,Strong Rupee,Neutral,Neutral
+2010-04-30,Rising,Strong Rupee,Bull,Neutral
+2010-05-31,Neutral,Weak Rupee,Neutral,Risk-Off
+2010-06-30,Falling,Stable Rupee,Neutral,Risk-Off
+2010-07-31,Neutral,Stable Rupee,Neutral,Neutral
+2010-08-31,Rising,Weak Rupee,Bull,Risk-Off
+2010-09-30,Neutral,Strong Rupee,Bull,Neutral
+2010-10-31,Neutral,Strong Rupee,Bull,Neutral
+2010-11-30,Neutral,Weak Rupee,Bull,Neutral
+2010-12-31,Falling,Strong Rupee,Neutral,Neutral
+2011-01-31,Falling,Weak Rupee,Bear,Neutral
+2011-02-28,Falling,Strong Rupee,Bear,Neutral
+2011-03-31,Falling,Strong Rupee,Neutral,Neutral
+2011-04-30,Falling,Strong Rupee,Neutral,Risk-On
+2011-05-31,Falling,Weak Rupee,Neutral,Neutral
+2011-06-30,Neutral,Strong Rupee,Neutral,Neutral
+2011-07-31,Falling,Strong Rupee,Neutral,Risk-Off
+2011-08-31,Rising,Weak Rupee,Bear,Risk-Off
+2011-09-30,Falling,Weak Rupee,Bear,Risk-Off
+2011-10-31,Falling,Stable Rupee,Neutral,Risk-Off
+2011-11-30,Rising,Weak Rupee,Neutral,Risk-Off
+2011-12-31,Falling,Weak Rupee,Bear,Neutral
+2012-01-31,Rising,Strong Rupee,Neutral,Neutral
+2012-02-29,Rising,Strong Rupee,Bull,Neutral
+2012-03-31,Rising,Weak Rupee,Bull,Neutral
+2012-04-30,Rising,Weak Rupee,Neutral,Neutral
+2012-05-31,Rising,Weak Rupee,Bear,Neutral
+2012-06-30,Neutral,Weak Rupee,Neutral,Neutral
+2012-07-31,Neutral,Strong Rupee,Neutral,Neutral
+2012-08-31,Falling,Stable Rupee,Bull,Neutral
+2012-09-30,Rising,Strong Rupee,Bull,Neutral
+2012-10-31,Rising,Weak Rupee,Bull,Neutral
+2012-11-30,Neutral,Weak Rupee,Bull,Neutral
+2012-12-31,Neutral,Stable Rupee,Neutral,Neutral
+2013-01-31,Falling,Strong Rupee,Bull,Risk-On
+2013-02-28,Rising,Weak Rupee,Neutral,Neutral
+2013-03-31,Falling,Weak Rupee,Neutral,Risk-On
+2013-04-30,Rising,Stable Rupee,Neutral,Risk-On
+2013-05-31,Falling,Weak Rupee,Bull,Neutral
+2013-06-30,Falling,Weak Rupee,Neutral,Neutral
+2013-07-31,Neutral,Weak Rupee,Neutral,Risk-On
+2013-08-31,Falling,Weak Rupee,Bear,Neutral
+2013-09-30,Neutral,Strong Rupee,Neutral,Neutral
+2013-10-31,Rising,Strong Rupee,Bull,Risk-On
+2013-11-30,Falling,Weak Rupee,Bull,Risk-On
+2013-12-31,Rising,Strong Rupee,Bull,Risk-On
+2014-01-31,Falling,Weak Rupee,Neutral,Neutral
+2014-02-28,Neutral,Stable Rupee,Neutral,Risk-On
+2014-03-31,Rising,Strong Rupee,Bull,Risk-On
+2014-04-30,Rising,Weak Rupee,Bull,Risk-On
+2014-05-31,Neutral,Strong Rupee,Bull,Risk-On
+2014-06-30,Rising,Weak Rupee,Bull,Risk-On
+2014-07-31,Falling,Stable Rupee,Bull,Neutral
+2014-08-31,Neutral,Weak Rupee,Bull,Risk-On
+2014-09-30,Neutral,Weak Rupee,Neutral,Neutral
+2014-10-31,Neutral,Stable Rupee,Bull,Risk-On
+2014-11-30,Neutral,Weak Rupee,Bull,Risk-On
+2014-12-31,Rising,Weak Rupee,Neutral,Neutral
+2015-01-31,Falling,Strong Rupee,Bull,Neutral
+2015-02-28,Neutral,Stable Rupee,Neutral,Risk-On
+2015-03-31,Neutral,Weak Rupee,Neutral,Neutral
+2015-04-30,Rising,Weak Rupee,Bear,Risk-On
+2015-05-31,Neutral,Weak Rupee,Neutral,Risk-On
+2015-06-30,Rising,Stable Rupee,Neutral,Neutral
+2015-07-31,Neutral,Weak Rupee,Neutral,Risk-On
+2015-08-31,Rising,Weak Rupee,Bear,Risk-Off
+2015-09-30,Neutral,Stable Rupee,Bear,Neutral
+2015-10-31,Falling,Strong Rupee,Bear,Neutral
+2015-11-30,Neutral,Weak Rupee,Neutral,Neutral
+2015-12-31,Rising,Strong Rupee,Neutral,Neutral
+2016-01-31,Rising,Weak Rupee,Bear,Neutral
+2016-02-29,Rising,Weak Rupee,Bear,Neutral
+2016-03-31,Falling,Strong Rupee,Neutral,Risk-On
+2016-04-30,Rising,Stable Rupee,Neutral,Neutral
+2016-05-31,Neutral,Weak Rupee,Bull,Risk-On
+2016-06-30,Rising,Stable Rupee,Bull,Neutral
+2016-07-31,Rising,Strong Rupee,Bull,Risk-On
+2016-08-31,Rising,Stable Rupee,Bull,Risk-On
+2016-09-30,Neutral,Stable Rupee,Neutral,Risk-On
+2016-10-31,Neutral,Stable Rupee,Neutral,Neutral
+2016-11-30,Rising,Weak Rupee,Bear,Risk-On
+2016-12-31,Rising,Strong Rupee,Neutral,Risk-On
+2017-01-31,Rising,Stable Rupee,Neutral,Risk-On
+2017-02-28,Rising,Strong Rupee,Bull,Risk-On
+2017-03-31,Rising,Strong Rupee,Bull,Risk-On
+2017-04-30,Rising,Strong Rupee,Bull,Risk-On
+2017-05-31,Rising,Weak Rupee,Bull,Risk-On
+2017-06-30,Rising,Stable Rupee,Neutral,Risk-On
+2017-07-31,Rising,Strong Rupee,Bull,Risk-On
+2017-08-31,Rising,Stable Rupee,Neutral,Risk-On
+2017-09-30,Falling,Weak Rupee,Neutral,Risk-On
+2017-10-31,Neutral,Strong Rupee,Neutral,Risk-On
+2017-11-30,Rising,Strong Rupee,Neutral,Risk-On
+2017-12-31,Rising,Strong Rupee,Bull,Risk-On
+2018-01-31,Rising,Stable Rupee,Bull,Risk-On
+2018-02-28,Rising,Weak Rupee,Neutral,Neutral
+2018-03-31,Rising,Stable Rupee,Neutral,Neutral
+2018-04-30,Rising,Weak Rupee,Neutral,Neutral
+2018-05-31,Rising,Weak Rupee,Neutral,Neutral
+2018-06-30,Rising,Weak Rupee,Bull,Neutral
+2018-07-31,Rising,Stable Rupee,Bull,Risk-On
+2018-08-31,Neutral,Weak Rupee,Bull,Risk-On
+2018-09-30,Rising,Weak Rupee,Neutral,Risk-On
+2018-10-31,Rising,Weak Rupee,Bear,Neutral
+2018-11-30,Rising,Strong Rupee,Bear,Neutral
+2018-12-31,Rising,Stable Rupee,Neutral,Risk-Off
+2019-01-31,Rising,Weak Rupee,Neutral,Neutral
+2019-02-28,Neutral,Stable Rupee,Neutral,Risk-On
+2019-03-31,Rising,Strong Rupee,Bull,Risk-On
+2019-04-30,Rising,Stable Rupee,Bull,Risk-On
+2019-05-31,Falling,Stable Rupee,Bull,Neutral
+2019-06-30,Falling,Strong Rupee,Neutral,Neutral
+2019-07-31,Rising,Stable Rupee,Bear,Neutral
+2019-08-31,Falling,Weak Rupee,Bear,Neutral
+2019-09-30,Falling,Strong Rupee,Neutral,Neutral
+2019-10-31,Falling,Weak Rupee,Bull,Risk-On
+2019-11-30,Falling,Weak Rupee,Bull,Risk-On
+2019-12-31,Neutral,Stable Rupee,Bull,Risk-On
+2020-01-31,Neutral,Stable Rupee,Neutral,Neutral
+2020-02-29,Rising,Stable Rupee,Bear,Risk-Off
+2020-03-31,Falling,Weak Rupee,Bear,Risk-Off
+2020-04-30,Falling,Stable Rupee,Bear,Risk-Off
+2020-05-31,Neutral,Weak Rupee,Bear,Risk-Off
+2020-06-30,Rising,Stable Rupee,Bull,Risk-Off
+2020-07-31,Rising,Strong Rupee,Bull,Neutral
+2020-08-31,Rising,Strong Rupee,Bull,Risk-Off
+2020-09-30,Falling,Weak Rupee,Bull,Risk-Off
+2020-10-31,Neutral,Weak Rupee,Bull,Risk-Off
+2020-11-30,Neutral,Stable Rupee,Bull,Neutral
+2020-12-31,Neutral,Strong Rupee,Bull,Neutral
+2021-01-31,Neutral,Stable Rupee,Bull,Risk-Off
+2021-02-28,Falling,Stable Rupee,Bull,Risk-Off
+2021-03-31,Falling,Stable Rupee,Bull,Neutral
+2021-04-30,Neutral,Weak Rupee,Bull,Neutral
+2021-05-31,Falling,Strong Rupee,Bull,Neutral
+2021-06-30,Rising,Weak Rupee,Bull,Neutral
+2021-07-31,Rising,Stable Rupee,Bull,Neutral
+2021-08-31,Falling,Strong Rupee,Bull,Neutral
+2021-09-30,Falling,Weak Rupee,Bull,Neutral
+2021-10-31,Neutral,Weak Rupee,Bull,Neutral
+2021-11-30,Neutral,Stable Rupee,Neutral,Risk-Off
+2021-12-31,Neutral,Strong Rupee,Neutral,Neutral
+2022-01-31,Neutral,Weak Rupee,Neutral,Neutral
+2022-02-28,Neutral,Stable Rupee,Neutral,Risk-Off
+2022-03-31,Rising,Weak Rupee,Neutral,Neutral
+2022-04-30,Rising,Weak Rupee,Neutral,Risk-Off
+2022-05-31,Rising,Weak Rupee,Neutral,Risk-Off
+2022-06-30,Rising,Weak Rupee,Bear,Risk-Off
+2022-07-31,Rising,Weak Rupee,Neutral,Neutral
+2022-08-31,Rising,Stable Rupee,Bull,Risk-Off
+2022-09-30,Rising,Weak Rupee,Bull,Risk-Off
+2022-10-31,Rising,Weak Rupee,Neutral,Risk-Off
+2022-11-30,Rising,Strong Rupee,Bull,Neutral
+2022-12-31,Rising,Weak Rupee,Bull,Neutral
+2023-01-31,Rising,Strong Rupee,Neutral,Neutral
+2023-02-28,Rising,Weak Rupee,Bear,Neutral
+2023-03-31,Rising,Strong Rupee,Neutral,Neutral
+2023-04-30,Rising,Stable Rupee,Neutral,Neutral
+2023-05-31,Rising,Weak Rupee,Bull,Neutral
+2023-06-30,Rising,Strong Rupee,Bull,Risk-On
+2023-07-31,Rising,Stable Rupee,Bull,Risk-On
+2023-08-31,Rising,Weak Rupee,Neutral,Risk-On
+2023-09-30,Neutral,Weak Rupee,Neutral,Neutral
+2023-10-31,Neutral,Stable Rupee,Neutral,Neutral
+2023-11-30,Neutral,Stable Rupee,Neutral,Risk-On
+2023-12-31,Neutral,Strong Rupee,Bull,Risk-On
+2024-01-31,Neutral,Weak Rupee,Bull,Risk-On
+2024-02-29,Neutral,Stable Rupee,Bull,Risk-On
+2024-03-31,Neutral,Weak Rupee,Neutral,Risk-On
+2024-04-30,Neutral,Stable Rupee,Neutral,Neutral
+2024-05-31,Neutral,Stable Rupee,Neutral,Risk-On
+2024-06-30,Neutral,Stable Rupee,Bull,Risk-On
+2024-07-31,Neutral,Stable Rupee,Bull,Neutral
+2024-08-31,Neutral,Stable Rupee,Bull,Neutral
+2024-09-30,Falling,Stable Rupee,Bull,Neutral
+2024-10-31,Falling,Stable Rupee,Neutral,Neutral
+2024-11-30,Falling,Stable Rupee,Neutral,Risk-On
+2024-12-31,Falling,Weak Rupee,Bear,Neutral
+2025-01-31,Falling,Weak Rupee,Neutral,Neutral
+2025-02-28,Neutral,Weak Rupee,Bear,Neutral
+2025-03-31,Neutral,Strong Rupee,Neutral,Neutral
+2025-04-30,Neutral,Stable Rupee,Neutral,Neutral
+2025-05-31,Neutral,Stable Rupee,Bull,Neutral
+2025-06-30,Neutral,Stable Rupee,Bull,Neutral
+2025-07-31,Neutral,Weak Rupee,Neutral,Neutral
+2025-08-31,Neutral,Stable Rupee,Neutral,Neutral
+2025-09-30,Falling,Weak Rupee,Neutral,Neutral
+2025-10-31,Falling,Stable Rupee,Neutral,Neutral
+2025-11-30,Falling,Weak Rupee,Bull,Neutral
+2025-12-31,Falling,Stable Rupee,Bull,Risk-On
+2026-01-31,Falling,Weak Rupee,Neutral,Neutral
+2026-02-28,Neutral,Strong Rupee,Neutral,Neutral
+2026-03-31,Neutral,Weak Rupee,Bear,Risk-Off
+2026-04-30,,Strong Rupee,Neutral,Neutral
