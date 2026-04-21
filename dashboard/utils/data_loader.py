@@ -403,8 +403,6 @@ def render_sidebar():
     Must be called at the top of every page.
     Uses key= parameter so Streamlit persists values in session_state.
     """
-    st.sidebar.markdown("---")
-
     st.sidebar.radio(
         "Market Scope",
         options=["Domestic", "Global (LRS / International)"],
