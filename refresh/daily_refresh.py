@@ -195,7 +195,7 @@ FRED_SERIES_MAP = {
     "US Housing Starts":          "HOUST",
     "US Consumer Confidence":     "UMCSENT",
     "US M2 Money Supply":         "M2SL",
-    "US Bank Credit":             "TOTBKCR",
+    # US Bank Credit excluded from refresh (display-excluded series)
     "US Natural Gas Price":       "MHHNGSP",
 }
 
@@ -475,7 +475,10 @@ if errors:
     print(f"\n  Errors ({len(errors)}):")
     for e in errors:
         print(f"    {e}")
-    sys.exit(1)   # non-zero exit flags the GitHub Actions run as failed
+    # Only fail the run if more than 3 errors — single transient API
+    # failures (e.g. FRED internal server error) should not fail the whole run
+    if len(errors) > 3:
+        sys.exit(1)
 else:
     print("\n  No errors.")
 print("\nDone.")
