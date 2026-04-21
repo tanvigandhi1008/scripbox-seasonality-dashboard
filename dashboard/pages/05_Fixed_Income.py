@@ -277,10 +277,10 @@ else:
             if sub_stats.empty or sub_stats["avg_return"].isna().all():
                 if sub in ["Credit Spread", "Yield Curve Spread"]:
                     st.info(
-                    f"Insufficient history for {sub} seasonal analysis. "
-                    f"FRED data for these series is available from April 2023 only — "
-                    f"meaningful seasonality requires a minimum of 10 years of monthly observations. "
-                    f"This section will populate automatically once sufficient history accumulates."
+                        f"Insufficient history for {sub} seasonal analysis. "
+                        f"FRED data for these series is available from April 2023 only — "
+                        f"meaningful seasonality requires a minimum of 10 years of monthly observations. "
+                        f"This section will populate automatically once sufficient history accumulates."
                     )
                 else:
                     st.info(f"No data for {sub} under current filters.")
