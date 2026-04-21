@@ -108,8 +108,7 @@ st.markdown(
 # introduce a misleading directional bias. Instead we show the current
 # USD/INR rate as a factual reference.
 
-BASE_SO      = "/content/drive/MyDrive/seasonality_dashboard"
-PROCESSED_SO = f"{BASE_SO}/data/processed"
+from utils.data_loader import PROCESSED as PROCESSED_SO
 
 @st.cache_data(ttl=300)
 def load_regime_so():
