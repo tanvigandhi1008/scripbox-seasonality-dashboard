@@ -275,16 +275,16 @@ else:
             sub_stats = filtered_stats[filtered_stats["sub_class"] == sub].copy()
 
             if sub_stats.empty or sub_stats["avg_return"].isna().all():
-    if sub in ["Credit Spread", "Yield Curve Spread"]:
-        st.info(
-            f"Insufficient history for {sub} seasonal analysis. "
-            f"FRED data for these series is available from April 2023 only — "
-            f"meaningful seasonality requires a minimum of 10 years of monthly observations. "
-            f"This section will populate automatically once sufficient history accumulates."
-        )
-    else:
-        st.info(f"No data for {sub} under current filters.")
-    continue
+                if sub in ["Credit Spread", "Yield Curve Spread"]:
+                    st.info(
+                    f"Insufficient history for {sub} seasonal analysis. "
+                    f"FRED data for these series is available from April 2023 only — "
+                    f"meaningful seasonality requires a minimum of 10 years of monthly observations. "
+                    f"This section will populate automatically once sufficient history accumulates."
+                    )
+                else:
+                    st.info(f"No data for {sub} under current filters.")
+                continue
 
             sub_types    = sub_stats["series_type"].unique()
             tab_is_yield = any(t in ["yield", "spread"] for t in sub_types)
