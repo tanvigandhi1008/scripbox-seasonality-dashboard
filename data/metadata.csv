@@ -109,8 +109,8 @@ France 10Y Yield,fixed_income.csv,Fixed Income,Sovereign Yield,Europe,EUR,% per 
 Italy 10Y Yield,fixed_income.csv,Fixed Income,Sovereign Yield,Europe,EUR,% per annum (monthly),yield,False,benchmark,Monthly frequency from FRED
 India 10Y Government Bond,fixed_income.csv,Fixed Income,Sovereign Yield,India,INR,% per annum (monthly),yield,False,domestic,Monthly frequency from FRED
 US Federal Funds Rate,fixed_income.csv,Fixed Income,Policy Rate,US,USD,% per annum (monthly),rate,False,benchmark,Fed target rate — key macro driver
-US CPI Inflation YoY,fixed_income.csv,Macro,Inflation,US,USD,Index level (monthly),index,False,benchmark,Compute YoY % change for inflation rate
-US Unemployment Rate,fixed_income.csv,Macro,Labour Market,US,USD,% of labour force (monthly),rate,False,benchmark,
+US CPI Inflation YoY,fixed_income.csv,Macro,Inflation,US,USD,Index level (monthly),price,False,benchmark,Compute YoY % change for inflation rate
+US Unemployment Rate,fixed_income.csv,Macro,Labour Market,US,USD,% of labour force (monthly),rate,False,excluded,
 US 20Y+ Treasury ETF,fixed_income.csv,Fixed Income,Bond ETF,US,USD,USD per share,price,True,international_etf,TLT — use for bond price return seasonality
 US 7-10Y Treasury ETF,fixed_income.csv,Fixed Income,Bond ETF,US,USD,USD per share,price,True,international_etf,IEF
 US 1-3Y Treasury ETF,fixed_income.csv,Fixed Income,Bond ETF,US,USD,USD per share,price,True,international_etf,SHY
@@ -143,15 +143,15 @@ Frontier Markets ETF,volatility_macro.csv,Equity,Regional ETF,EM,USD,USD per sha
 EM Local Currency Bond ETF,volatility_macro.csv,Fixed Income,Bond ETF,EM,USD,USD per share,price,True,international_etf,EMLC — VanEck EM Local Currency Bond ETF
 Baltic Dry Index ETF,volatility_macro.csv,Macro,Trade Indicator,Global,USD,USD per share,price,False,benchmark,BDRY — Breakwave Dry Bulk Shipping ETF. Proxy for global trade volumes
 US GDP Growth Rate,volatility_macro.csv,Macro,Growth,US,USD,% QoQ annualised (quarterly),price,False,benchmark,Quarterly. Use for regime classification
-US Industrial Production,volatility_macro.csv,Macro,Growth,US,USD,Index level (monthly),index,False,benchmark,Compute YoY % change
-US Retail Sales,volatility_macro.csv,Macro,Consumption,US,USD,USD millions (monthly),index,False,benchmark,Compute YoY % change
-US Housing Starts,volatility_macro.csv,Macro,Housing,US,USD,Thousands of units (monthly),index,False,benchmark,Compute YoY % change
-US Consumer Confidence,volatility_macro.csv,Macro,Sentiment,US,USD,Index level (monthly),index,False,benchmark,University of Michigan Consumer Sentiment
-US M2 Money Supply,volatility_macro.csv,Macro,Liquidity,US,USD,USD billions (monthly),index,False,benchmark,Compute YoY % change for money supply growth
-US Bank Credit,volatility_macro.csv,Macro,Liquidity,US,USD,USD millions (weekly),index,False,benchmark,Weekly frequency
+US Industrial Production,volatility_macro.csv,Macro,Growth,US,USD,Index level (monthly),price,False,benchmark,Compute YoY % change
+US Retail Sales,volatility_macro.csv,Macro,Consumption,US,USD,USD millions (monthly),price,False,benchmark,Compute YoY % change
+US Housing Starts,volatility_macro.csv,Macro,Housing,US,USD,Thousands of units (monthly),price,False,benchmark,Compute YoY % change
+US Consumer Confidence,volatility_macro.csv,Macro,Sentiment,US,USD,Index level (monthly),price,False,benchmark,University of Michigan Consumer Sentiment
+US M2 Money Supply,volatility_macro.csv,Macro,Liquidity,US,USD,USD billions (monthly),index,False,excluded,Compute YoY % change for money supply growth
+US Bank Credit,volatility_macro.csv,Macro,Liquidity,US,USD,USD millions (weekly),index,False,excluded,Weekly frequency
 US Natural Gas Price,volatility_macro.csv,Macro,Energy Price,US,USD,USD per MMBtu (monthly),price,False,benchmark,Monthly Henry Hub price from FRED
-India CPI Inflation,volatility_macro.csv,Macro,Inflation,India,INR,Index level (monthly),index,False,domestic,Compute YoY % change for inflation rate
-India Industrial Production,volatility_macro.csv,Macro,Growth,India,INR,Index level (monthly),index,False,domestic,IIP — compute YoY % change
+India CPI Inflation,volatility_macro.csv,Macro,Inflation,India,INR,Index level (monthly),price,False,domestic,Compute YoY % change for inflation rate
+India Industrial Production,volatility_macro.csv,Macro,Growth,India,INR,Index level (monthly),price,False,domestic,IIP — compute YoY % change
 India GDP Growth,volatility_macro.csv,Macro,Growth,India,INR,% QoQ (quarterly),price,False,domestic,Quarterly. Use for regime classification
 MCX Silver INR (Synthetic),commodities.csv,Commodity,Precious Metal,India,INR,INR per kg,price,False,domestic,Synthetic: Silver (USD) x USD/INR. Approximates MCX Silver price experience for Indian investors.
 MCX Crude Oil INR (Synthetic),commodities.csv,Commodity,Energy,India,INR,INR per barrel,price,False,domestic,Synthetic: Crude Oil WTI (USD) x USD/INR. Approximates MCX Crude Oil price for Indian investors.
