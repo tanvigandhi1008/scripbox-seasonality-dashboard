@@ -403,11 +403,13 @@ def render_sidebar():
     Must be called at the top of every page.
     Uses key= parameter so Streamlit persists values in session_state.
     """
+    # Logo at the very top of the sidebar
     logo_path = f"{ASSETS}/scripbox_logo.png"
     try:
         from PIL import Image
         img = Image.open(logo_path)
-        st.sidebar.image(img, width=140)
+        # Use a larger width for better resolution rendering
+        st.sidebar.image(img, width=180)
     except Exception:
         st.sidebar.markdown(
             f'<span style="font-size:1.3rem;font-weight:700;'
@@ -415,12 +417,6 @@ def render_sidebar():
             unsafe_allow_html=True,
         )
 
-    st.sidebar.markdown(
-        f'<p style="font-size:0.7rem;color:{THEME["text_muted"]};'
-        f'margin-top:-6px;margin-bottom:12px;">'
-        f'Global Seasonality Dashboard</p>',
-        unsafe_allow_html=True,
-    )
     st.sidebar.markdown("---")
 
     st.sidebar.radio(
