@@ -58,7 +58,7 @@ align-items:flex-start; padding:0.2rem 0 0 0;">
     </div>
     <div style="flex-shrink:0;margin-left:2rem;padding-top:0.2rem;">
         <img src="data:image/png;base64,{LOGO_B64}"
-             style="height:80px;"
+             style="height:100px;"
              alt="Scripbox">
     </div>
 </div>

@@ -75,7 +75,7 @@ html, body, [class*="css"] {{
 }}
 .main .block-container {{
     background: {THEME["bg"]};
-    padding: 2rem 2.5rem;
+    padding: 0.5rem 2.5rem 2rem 2.5rem;
     max-width: 1400px;
 }}
 section[data-testid="stSidebar"] {{
