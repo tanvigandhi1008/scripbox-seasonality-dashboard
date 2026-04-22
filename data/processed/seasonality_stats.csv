@@ -1895,3 +1895,27 @@ MCX Aluminium INR (Synthetic),9,September,12,Commodity,Base Metal,India,INR,pric
 MCX Aluminium INR (Synthetic),10,October,12,Commodity,Base Metal,India,INR,price,0.015365,0.01985,0.042266,0.75,0.088096,-0.058183,2025.0,2015.0,1.2593,0.234
 MCX Aluminium INR (Synthetic),11,November,12,Commodity,Base Metal,India,INR,price,0.013549,0.003699,0.054085,0.5833,0.104177,-0.057394,2020.0,2021.0,0.8678,0.404
 MCX Aluminium INR (Synthetic),12,December,12,Commodity,Base Metal,India,INR,price,0.004709,-0.000176,0.036397,0.5,0.066298,-0.050736,2023.0,2014.0,0.4482,0.6627
+US GDP Growth Rate,1,January,25,Macro,Growth,US,USD,price,0.01392,0.021,0.028347,0.68,0.057,-0.052,2021.0,2020.0,2.4552,0.0217
+US GDP Growth Rate,2,February,0,Macro,Growth,US,USD,price,,,,,,,,,,
+US GDP Growth Rate,3,March,0,Macro,Growth,US,USD,price,,,,,,,,,,
+US GDP Growth Rate,4,April,26,Macro,Growth,US,USD,price,0.016269,0.025,0.062968,0.9231,0.075,-0.28,2000.0,2020.0,1.3174,0.1996
+US GDP Growth Rate,5,May,0,Macro,Growth,US,USD,price,,,,,,,,,,
+US GDP Growth Rate,6,June,0,Macro,Growth,US,USD,price,,,,,,,,,,
+US GDP Growth Rate,7,July,26,Macro,Growth,US,USD,price,0.037308,0.03,0.066745,0.8846,0.349,-0.021,2020.0,2008.0,2.8502,0.0086
+US GDP Growth Rate,8,August,0,Macro,Growth,US,USD,price,,,,,,,,,,
+US GDP Growth Rate,9,September,0,Macro,Growth,US,USD,price,,,,,,,,,,
+US GDP Growth Rate,10,October,26,Macro,Growth,US,USD,price,0.023346,0.0245,0.027535,0.9615,0.07,-0.085,2021.0,2008.0,4.3234,0.0002
+US GDP Growth Rate,11,November,0,Macro,Growth,US,USD,price,,,,,,,,,,
+US GDP Growth Rate,12,December,0,Macro,Growth,US,USD,price,,,,,,,,,,
+India GDP Growth,1,January,13,Macro,Growth,India,INR,price,0.061739,0.065156,0.021349,1.0,0.092226,0.023789,2016.0,2020.0,10.4272,0.0
+India GDP Growth,2,February,0,Macro,Growth,India,INR,price,,,,,,,,,,
+India GDP Growth,3,March,0,Macro,Growth,India,INR,price,,,,,,,,,,
+India GDP Growth,4,April,14,Macro,Growth,India,INR,price,0.064986,0.072737,0.094225,0.9286,0.230821,-0.21985,2021.0,2020.0,2.5806,0.0228
+India GDP Growth,5,May,0,Macro,Growth,India,INR,price,,,,,,,,,,
+India GDP Growth,6,June,0,Macro,Growth,India,INR,price,,,,,,,,,,
+India GDP Growth,7,July,14,Macro,Growth,India,INR,price,0.062681,0.064982,0.036041,0.9286,0.099228,-0.049913,2021.0,2020.0,6.5074,0.0
+India GDP Growth,8,August,0,Macro,Growth,India,INR,price,,,,,,,,,,
+India GDP Growth,9,September,0,Macro,Growth,India,INR,price,,,,,,,,,,
+India GDP Growth,10,October,13,Macro,Growth,India,INR,price,0.061183,0.064755,0.022072,1.0,0.096882,0.012734,2023.0,2020.0,9.9946,0.0
+India GDP Growth,11,November,0,Macro,Growth,India,INR,price,,,,,,,,,,
+India GDP Growth,12,December,0,Macro,Growth,India,INR,price,,,,,,,,,,
