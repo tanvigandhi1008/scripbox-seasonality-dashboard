@@ -35,7 +35,7 @@ LOGO_B64 = "iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAz1BMVEX////3gAH8////
 # ── HEADER ────────────────────────────────────────────────────────────────────
 st.markdown(f"""
 <div style="display:flex; justify-content:space-between;
-align-items:flex-start; padding:1.5rem 0 0 0;">
+align-items:flex-start; padding:0.2rem 0 0 0;">
     <div style="flex:1;">
         <div style="font-size:2rem;font-weight:700;
         color:{THEME['text_primary']};margin-bottom:0.3rem;">
@@ -58,7 +58,7 @@ align-items:flex-start; padding:1.5rem 0 0 0;">
     </div>
     <div style="flex-shrink:0;margin-left:2rem;padding-top:0.2rem;">
         <img src="data:image/png;base64,{LOGO_B64}"
-             style="height:44px;"
+             style="height:80px;"
              alt="Scripbox">
     </div>
 </div>
