@@ -39,7 +39,8 @@ heatmap_metric = st.session_state.get("heatmap_metric", "Average Return")
 metric_col     = "avg_return" if heatmap_metric == "Average Return" else "median_return"
 
 # ── LOAD DATA ─────────────────────────────────────────────────────────────────
-from utils.data_loader import BASE, PROCESSED, RAW
+BASE      = "/content/drive/MyDrive/seasonality_dashboard"
+PROCESSED = f"{BASE}/data/processed"
 
 @st.cache_data(ttl=300)
 def load_regime_labels():

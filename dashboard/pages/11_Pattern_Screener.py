@@ -85,7 +85,8 @@ st.markdown("<hr>", unsafe_allow_html=True)
 # If user selects a regime, stats are recomputed from regime months only.
 # This surfaces patterns that are strong specifically in the current environment.
 
-from utils.data_loader import PROCESSED as PROCESSED_PS
+BASE_PS      = "/content/drive/MyDrive/seasonality_dashboard"
+PROCESSED_PS = f"{BASE_PS}/data/processed"
 
 @st.cache_data(ttl=300)
 def load_regime_ps():
