@@ -194,7 +194,7 @@ FRED_SERIES_MAP = {
     "US Retail Sales":            "RSXFS",
     "US Housing Starts":          "HOUST",
     "US Consumer Confidence":     "UMCSENT",
-    "US M2 Money Supply":         "M2SL",
+    # US M2 Money Supply: excluded from display, removed from refresh
     # US Bank Credit excluded from refresh (display-excluded series)
     "US Natural Gas Price":       "MHHNGSP",
 }
