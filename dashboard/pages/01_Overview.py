@@ -201,27 +201,6 @@ with view_tabs[1]:
 
             # For Fixed Income in full reference view: show Bond ETFs only
             # Yield and spread series are on the dedicated Fixed Income page
-            if asset_class == "Macro":
-                st.markdown(
-                    '''<div class="info-card">
-                    <strong>How to read this tab:</strong>
-                    Each series uses the most meaningful computation for its type.
-                    <strong>CPI, IIP, Retail Sales, Housing Starts, Industrial
-                    Production, and Consumer Confidence</strong> show the average
-                    month-on-month percentage change — positive values mean the
-                    indicator typically rises in that month, negative means it
-                    typically falls.
-                    <strong>GDP Growth Rate</strong> shows the reported annualised
-                    quarterly growth rate. Only the four quarter-start months are
-                    shown (January, April, July, October) — blank cells are correct,
-                    GDP is a quarterly series and there is no monthly GDP reading.
-                    <strong>Natural Gas Price</strong> shows month-on-month price
-                    return and has genuine seasonal patterns driven by heating demand.
-                    All values are averages from 2000 onwards.
-                    </div>''',
-                    unsafe_allow_html=True
-                )
-
             if asset_class == "Fixed Income":
                 ac_stats = ac_stats[
                     ~ac_stats["series_type"].isin({"yield", "spread", "rate"})

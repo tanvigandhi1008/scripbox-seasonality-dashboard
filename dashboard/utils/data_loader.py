@@ -75,20 +75,8 @@ html, body, [class*="css"] {{
 }}
 .main .block-container {{
     background: {THEME["bg"]};
-    padding: 0rem 2.5rem 2rem 2.5rem;
+    padding: 2rem 2.5rem;
     max-width: 1400px;
-}}
-[data-testid="stAppViewBlockContainer"] {{
-    padding-top: 0rem !important;
-}}
-[data-testid="stMainBlockContainer"] {{
-    padding-top: 0rem !important;
-}}
-header[data-testid="stHeader"] {{
-    display: none !important;
-}}
-#root > div:first-child {{
-    padding-top: 0rem !important;
 }}
 section[data-testid="stSidebar"] {{
     background: {THEME["surface"]} !important;
@@ -415,6 +403,24 @@ def render_sidebar():
     Must be called at the top of every page.
     Uses key= parameter so Streamlit persists values in session_state.
     """
+    logo_path = f"{ASSETS}/scripbox_logo.png"
+    try:
+        from PIL import Image
+        img = Image.open(logo_path)
+        st.sidebar.image(img, width=140)
+    except Exception:
+        st.sidebar.markdown(
+            f'<span style="font-size:1.3rem;font-weight:700;'
+            f'color:{THEME["primary"]};">scripbox</span>',
+            unsafe_allow_html=True,
+        )
+
+    st.sidebar.markdown(
+        f'<p style="font-size:0.7rem;color:{THEME["text_muted"]};'
+        f'margin-top:-6px;margin-bottom:12px;">'
+        f'Global Seasonality Dashboard</p>',
+        unsafe_allow_html=True,
+    )
     st.sidebar.radio(
         "Market Scope",
         options=["Domestic", "Global (LRS / International)"],
