@@ -1753,7 +1753,7 @@ US Housing Starts,11,November,26,Macro,Housing,US,USD,price,0.013836,0.01693,0.0
 US Housing Starts,12,December,26,Macro,Housing,US,USD,price,0.00768,-0.011457,0.087488,0.4615,0.171669,-0.141104,2012.0,2008.0,0.4476,0.6583
 US Consumer Confidence,1,January,26,Macro,Sentiment,US,USD,price,0.0164,0.004045,0.051488,0.5385,0.133429,-0.072228,2024.0,2019.0,1.6241,0.1169
 US Consumer Confidence,2,February,27,Macro,Sentiment,US,USD,price,-0.020511,-0.022335,0.042564,0.3333,0.051491,-0.097629,2013.0,2025.0,-2.5039,0.0189
-US Consumer Confidence,3,March,26,Macro,Sentiment,US,USD,price,-0.01231,-0.003817,0.054229,0.4615,0.105469,-0.129032,2021.0,2011.0,-1.1575,0.258
+US Consumer Confidence,3,March,27,Macro,Sentiment,US,USD,price,-0.014014,-0.007634,0.053908,0.4444,0.105469,-0.129032,2021.0,2011.0,-1.3508,0.1884
 US Consumer Confidence,4,April,26,Macro,Sentiment,US,USD,price,-0.004855,-0.015704,0.066348,0.4231,0.136126,-0.194164,2009.0,2020.0,-0.3731,0.7122
 US Consumer Confidence,5,May,26,Macro,Sentiment,US,USD,price,-0.002263,0.003997,0.057136,0.5385,0.106021,-0.104922,2013.0,2024.0,-0.2019,0.8416
 US Consumer Confidence,6,June,26,Macro,Sentiment,US,USD,price,0.008015,-0.001346,0.064344,0.5,0.162835,-0.143836,2025.0,2022.0,0.6352,0.5311
