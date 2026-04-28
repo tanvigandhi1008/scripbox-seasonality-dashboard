@@ -1,7 +1,10 @@
 {
-  "last_updated_utc": "2026-04-27 17:52 UTC",
-  "last_updated_ist": "2026-04-27 23:22 IST",
-  "errors": [],
+  "last_updated_utc": "2026-04-28 18:11 UTC",
+  "last_updated_ist": "2026-04-28 23:41 IST",
+  "errors": [
+    "FRED Italy 10Y Yield: Internal Server Error",
+    "FRED India 10Y Government Bond: Internal Server Error"
+  ],
   "series_count": 158,
   "months_count": 315
 }
