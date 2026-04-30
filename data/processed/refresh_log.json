@@ -1,9 +1,7 @@
 {
-  "last_updated_utc": "2026-04-29 18:04 UTC",
-  "last_updated_ist": "2026-04-29 23:34 IST",
-  "errors": [
-    "FRED US Natural Gas Price: Internal Server Error"
-  ],
+  "last_updated_utc": "2026-04-30 17:54 UTC",
+  "last_updated_ist": "2026-04-30 23:24 IST",
+  "errors": [],
   "series_count": 158,
   "months_count": 315
 }
