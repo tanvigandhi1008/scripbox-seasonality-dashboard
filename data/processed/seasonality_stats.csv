@@ -1334,7 +1334,7 @@ US CPI Inflation YoY,12,December,26,Macro,Inflation,US,USD,price,0.001434,0.0020
 US Unemployment Rate,1,January,26,Macro,Labour Market,US,USD,rate,-0.023077,-0.05,0.17506,0.2692,0.5,-0.3,2009.0,2021.0,-0.6722,0.5076
 US Unemployment Rate,2,February,27,Macro,Labour Market,US,USD,rate,0.007407,0.0,0.163909,0.4444,0.5,-0.3,2009.0,2013.0,0.2348,0.8162
 US Unemployment Rate,3,March,27,Macro,Labour Market,US,USD,rate,0.011111,0.0,0.225889,0.2593,0.9,-0.2,2020.0,2005.0,0.2556,0.8003
-US Unemployment Rate,4,April,26,Macro,Labour Market,US,USD,rate,0.396154,0.0,2.045772,0.3462,10.4,-0.5,2020.0,2014.0,0.9874,0.3329
+US Unemployment Rate,4,April,27,Macro,Labour Market,US,USD,rate,0.381481,0.0,2.007493,0.3333,10.4,-0.5,2020.0,2014.0,0.9874,0.3325
 US Unemployment Rate,5,May,26,Macro,Labour Market,US,USD,rate,-0.073077,-0.1,0.362831,0.3077,0.4,-1.6,2008.0,2020.0,-1.027,0.3143
 US Unemployment Rate,6,June,26,Macro,Labour Market,US,USD,rate,-0.065385,0.0,0.457771,0.3846,0.2,-2.2,2001.0,2020.0,-0.7283,0.4732
 US Unemployment Rate,7,July,26,Macro,Labour Market,US,USD,rate,-0.053846,0.0,0.210201,0.3077,0.2,-0.8,2008.0,2020.0,-1.3062,0.2034
