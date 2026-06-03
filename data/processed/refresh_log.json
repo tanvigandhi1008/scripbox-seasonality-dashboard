@@ -1,7 +1,10 @@
 {
-  "last_updated_utc": "2026-05-29 16:47 UTC",
-  "last_updated_ist": "2026-05-29 22:17 IST",
-  "errors": [],
+  "last_updated_utc": "2026-06-03 18:04 UTC",
+  "last_updated_ist": "2026-06-03 23:34 IST",
+  "errors": [
+    "FRED US IG Credit Spread OAS: Too Many Requests.  Exceeded Rate Limit",
+    "AMFI Aggressive Hybrid Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)"
+  ],
   "series_count": 158,
   "months_count": 315
 }
