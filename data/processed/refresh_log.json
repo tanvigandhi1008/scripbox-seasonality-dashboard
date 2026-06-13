@@ -1,10 +1,8 @@
 {
-  "last_updated_utc": "2026-06-12 16:25 UTC",
-  "last_updated_ist": "2026-06-12 21:55 IST",
+  "last_updated_utc": "2026-06-13 15:04 UTC",
+  "last_updated_ist": "2026-06-13 20:34 IST",
   "errors": [
-    "AMFI Large Cap Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)",
-    "AMFI Mid Cap Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)",
-    "AMFI Small Cap Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)"
+    "AMFI Large Cap Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)"
   ],
   "series_count": 158,
   "months_count": 315
