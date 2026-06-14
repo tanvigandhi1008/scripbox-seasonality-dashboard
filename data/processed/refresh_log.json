@@ -1,9 +1,7 @@
 {
-  "last_updated_utc": "2026-06-13 15:04 UTC",
-  "last_updated_ist": "2026-06-13 20:34 IST",
-  "errors": [
-    "AMFI Large Cap Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)"
-  ],
+  "last_updated_utc": "2026-06-14 15:10 UTC",
+  "last_updated_ist": "2026-06-14 20:40 IST",
+  "errors": [],
   "series_count": 158,
   "months_count": 315
 }
