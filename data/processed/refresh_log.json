@@ -1,7 +1,9 @@
 {
-  "last_updated_utc": "2026-07-10 15:35 UTC",
-  "last_updated_ist": "2026-07-10 21:05 IST",
-  "errors": [],
+  "last_updated_utc": "2026-07-11 14:24 UTC",
+  "last_updated_ist": "2026-07-11 19:54 IST",
+  "errors": [
+    "AMFI US Equity FOF Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)"
+  ],
   "series_count": 158,
   "months_count": 315
 }
