@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-08-07 14:17 UTC",
-  "last_updated_ist": "2026-08-07 19:47 IST",
+  "last_updated_utc": "2026-08-08 13:50 UTC",
+  "last_updated_ist": "2026-08-08 19:20 IST",
   "errors": [
-    "FRED US 10Y Breakeven Inflation: None"
+    "AMFI Mid Cap Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)"
   ],
   "series_count": 158,
   "months_count": 315
