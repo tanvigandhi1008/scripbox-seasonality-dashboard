@@ -1,9 +1,7 @@
 {
-  "last_updated_utc": "2026-08-12 14:23 UTC",
-  "last_updated_ist": "2026-08-12 19:53 IST",
+  "last_updated_utc": "2026-08-13 14:24 UTC",
+  "last_updated_ist": "2026-08-13 19:54 IST",
   "errors": [
-    "AMFI Corporate Bond Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)",
-    "AMFI Liquid Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)",
     "AMFI US Equity FOF Category: HTTPSConnectionPool(host='api.mfapi.in', port=443): Read timed out. (read timeout=15)"
   ],
   "series_count": 158,
