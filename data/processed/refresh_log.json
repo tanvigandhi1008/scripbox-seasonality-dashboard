@@ -1,9 +1,7 @@
 {
-  "last_updated_utc": "2026-09-18 17:02 UTC",
-  "last_updated_ist": "2026-09-18 22:32 IST",
-  "errors": [
-    "FRED US 10Y minus 2Y Spread: None"
-  ],
+  "last_updated_utc": "2026-09-21 18:35 UTC",
+  "last_updated_ist": "2026-09-22 00:05 IST",
+  "errors": [],
   "series_count": 158,
   "months_count": 315
 }
