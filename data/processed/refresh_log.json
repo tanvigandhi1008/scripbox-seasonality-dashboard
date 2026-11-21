@@ -1,7 +1,9 @@
 {
-  "last_updated_utc": "2026-11-20 20:59 UTC",
-  "last_updated_ist": "2026-11-21 02:29 IST",
-  "errors": [],
+  "last_updated_utc": "2026-11-21 20:00 UTC",
+  "last_updated_ist": "2026-11-22 01:30 IST",
+  "errors": [
+    "YF global_equities.csv/SET Thailand: 'numpy.float64' object has no attribute 'index'"
+  ],
   "series_count": 158,
   "months_count": 315
 }
